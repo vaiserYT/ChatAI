@@ -1,0 +1,112 @@
+.LeftHeader {
+    display: inline-block;
+    /* padding: 10px 50px; */
+    padding-left: 30px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 175px;
+    height: 95vh;
+    background-color: #1C1C1C;
+    border-radius: 30px;
+    user-select: none; /* Отключение выделения текста */
+    overflow-y: auto; 
+    scrollbar-color: #000000 #1C1C1C;
+}
+:root {
+    background-color: #000000;
+    color: white;
+    overflow: hidden;
+}
+
+.Chats {
+    display: block;
+    padding-top: 25px;
+    user-select: none; /* Отключение выделения текста */
+    max-width: 300px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+.bars {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Отступ слева */
+    width: 30px; 
+    height: 30px;
+    display: grid;
+    justify-items: start;
+    align-items: start;
+    user-select: none; /* Отключение выделения текста */
+    transition: all 0.2s ease-in-out;
+
+}
+
+.bars:hover{
+    cursor: pointer;
+    -webkit-filter: drop-shadow(1px 1px 5px #ffffff);
+    filter: drop-shadow(1px 1px 5px #ffffff);
+}
+
+.plus {
+    position: absolute;
+    top: 20px;
+    left: 235px; /* Отступ слева */
+    width: 30px; 
+    height: 30px;
+    display: grid;
+    justify-items: start;
+    align-items: start;
+    user-select: none; /* Отключение выделения текста */
+    transition: all 0.2s ease-in-out;
+
+}
+
+.plus:hover{
+    cursor: pointer;
+    /* box-shadow: 0px 0px 20px rgb(78, 78, 78); */
+    -webkit-filter: drop-shadow(1px 1px 5px #ffffff);
+    filter: drop-shadow(1px 1px 5px #ffffff);
+}
+
+/* .Chats{
+    overflow-y: scroll;
+} */
+
+.Chats-inside{
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+
+.Chats-inside:hover{
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(54, 54, 54);
+}
+
+.Check-Chats{
+    position: absolute;
+    bottom: 50%;
+    padding-left: 45%;
+    font-size: 55px;
+}
+
+h3, .chat-more{
+    display: inline-block;
+}
+
+.chat-more{
+    margin-left: 40px;
+}
+
+.chat-more{
+    margin-left: 40px;
+}
+.chat-more:hover{
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(54, 54, 54);
+}

@@ -1,0 +1,42 @@
+form {
+    display: inline-block;
+    position: fixed;
+    top: 95%; 
+    left: 55%; 
+    transform: translate(-50%, -50%); /* Центрирование */
+    max-width: 90%; 
+    max-height: 85vh;
+    overflow-y: auto; 
+    scrollbar-color: #000000 #1C1C1C;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-text{
+    background-color: #1C1C1C;
+    width: 95vh;
+    height: 35px;
+    color: white;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+
+.submit-button{
+    position: absolute;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    top: 7px;
+    right: 10px;
+    user-select: none; /* Отключение выделения текста */
+    transition: all 0.2s ease-in-out;
+
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    /* box-shadow: 0px 0px 20px rgb(78, 78, 78); */
+    -webkit-filter: drop-shadow(1px 1px 5px #ffffff);
+    filter: drop-shadow(1px 1px 5px #ffffff);
+}
